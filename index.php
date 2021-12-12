@@ -1,6 +1,6 @@
 <?php
 // Create database connection using config file
-	include_once("konek.php");
+	include_once("koneksii.php");
 // Fetch all users data from database
 	$result = mysqli_query($con, "SELECT * FROM mahasiswa ");
 ?>
@@ -27,5 +27,6 @@
 		}
 		?>
 	</table>
+	<a href="lap_mhs.php">Cetak</a>
 </body>
 </html>

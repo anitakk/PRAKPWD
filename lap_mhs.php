@@ -20,8 +20,7 @@ $pdf->Cell(25,6,'J KEL',1,0);
 $pdf->Cell(50,6,'ALAMAT',1,0);
 $pdf->Cell(30,6,'TANGGAL LHR',1,1);
 $pdf->SetFont('Arial','',10);
-include 'cari_mhs.php';
-include 'koneksii.php';
+include 'index.php';
 $mahasiswa = mysqli_query($con, "select * from mahasiswa");
 while ($row = mysqli_fetch_array($mahasiswa)){
 	$pdf->Cell(20,6,$row['nim'],1,0);
