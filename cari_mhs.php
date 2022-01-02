@@ -1,5 +1,6 @@
 <?php 
 include 'koneksii.php';
+include 'lap_mhs.php';
 ?>
 
 <h3>Form Pencarian Dengan PHP Mahasiswa</h3>
